@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #70c5ce;
+}
+
+#game {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #70c5ce;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+#bird {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.obstacle {
+    position: absolute;
+    width: 60px;
+    background-color: green;
+}
